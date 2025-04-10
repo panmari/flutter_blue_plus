@@ -761,7 +761,7 @@ final class FlutterBluePlusLinux extends FlutterBluePlusPlatform {
       await characteristic.stopNotify();
     }
 
-    return true;
+    return false;
   }
 
   @override
